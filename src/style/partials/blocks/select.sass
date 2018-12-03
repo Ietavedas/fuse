@@ -1,0 +1,63 @@
+.select
+    position: relative
+
+    width: calc(100% - 30px)
+    height: 64px
+
+    margin-top: 20px
+    margin-left: 30px
+    padding: 16px 17px
+
+    border: 3px solid #eaeaea
+
+.select__input
+    display: none
+
+.select__label
+    font-size: 16px
+    font-weight: 800
+
+    line-height: 22px
+
+    color: #adadad
+
+    &--small
+        font-size: 12px
+
+        margin-top: -8px
+
+        transition: .3s
+
+.select__text
+    font-size: 16px
+    font-weight: 400
+
+    color: #333333
+
+.select__options
+    display: none
+    position: absolute
+    top: 100%
+    right: -3px
+    left: -3px
+
+    background-color: #FFFFFF
+
+    border-top: 2px solid #eaeaea
+    border-right: 3px solid #eaeaea
+    border-bottom: 3px solid #eaeaea
+    border-left: 3px solid #eaeaea
+
+    z-index: 3
+
+.select__option
+    line-height: 40px
+
+    padding-right: 17px
+    padding-left: 17px
+
+    cursor: pointer
+    &:hover
+        background-color: #eaeaea
+
+        transition: .3s

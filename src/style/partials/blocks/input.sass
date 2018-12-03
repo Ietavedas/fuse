@@ -1,0 +1,66 @@
+.input
+    &:not(.input__input)
+        display: inline-block
+        position: relative
+
+        width: calc(100% - 30px)
+        height: 64px
+
+        margin-left: 30px
+        padding: 16px 17px
+
+        margin-top: 20px
+        
+        border: 3px solid #eaeaea
+
+.input--small
+    width: calc(49.6% - 30px) !important
+
+@media screen and (max-width: 769px)
+    .input--small
+        width: calc(100% - 30px) !important
+
+.input__label
+    position: relative
+
+    font-size: 16px
+    font-weight: 800
+
+    color: #adadad
+
+    transition: .3s
+
+    &--small
+        font-size: 12px
+
+        top: -6px
+
+        transition: .3s
+
+.input__input
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    
+    width: 100%
+
+    padding-top: 22px
+    padding-left: 15px
+
+    font-size: 16px
+    font-weight: 400
+
+    line-height: 22px
+
+    border: none
+    outline: 0
+
+    z-index: 0
+    &:focus + .input__label
+        font-size: 12px
+
+        top: -6px
+
+        transition: .3s

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+    <title>fuse 8</title>
+    <link rel="stylesheet" type="text/css" href="css/vendors.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<section class="wrapper">
+
+    <button class="button button--position-senter" registration>
+        Open registration
+    </button>
+
+</section>
+
+<div class="overlay"></div>
+
+<div class="modal" registration-modal>
+    <div class="modal__container">
+        <div class="close">
+            <svg class="icon icon-close">
+                <use xlink:href="#icon-close"></use>
+            </svg>
+        </div>
+        <div class="modal__head">
+            <span class="modal__suptitle">
+                Come and say hello
+            </span>
+            <div class="modal__title">
+                Register for an Open Day
+            </div>
+        </div>
+        <div class="modal__content form">
+            <span class="form__text">
+                Open Days are the perfect opportunity to get to know us, visit our campus, see acccommodation, meet academics, and get the low-down on the Essex student life.
+            </span>
+            <div class="form__title">
+                Book your place
+            </div>
+            <form action="">
+                <div class="select">
+                    <input type="text" class="select__input">
+                    <div class="select__label">I am an</div>
+                    <span class="select__text"></span>
+                    <div class="select__options">
+                        <div class="select__option" data-option="1">1</div>
+                        <div class="select__option" data-option="2">2</div>
+                        <div class="select__option" data-option="3">3</div>
+                    </div>
+                </div>
+
+                <div class="select">
+                    <input type="text" class="select__input">
+                    <div class="select__label">Campus</div>
+                    <span class="select__text"></span>
+                    <div class="select__options">
+                        <div class="select__option" data-option="1">1</div>
+                        <div class="select__option" data-option="2">2</div>
+                        <div class="select__option" data-option="3">3</div>
+                    </div>
+                </div>
+
+                <div class="input input--small form__input">
+                    <input type="text" class="input__input datapicker" validation>
+                    <span class="input__label">Date*</span>
+                </div>
+
+                <div class="input input--small">
+                    <input type="text" class="input__input" validation>
+                    <span class="input__label">First Name*</span>
+                </div>
+
+                <div class="input input--small">
+                    <input type="text" class="input__input" validation>
+                    <span class="input__label">Last Name*</span>
+                </div>
+
+                <div class="input">
+                    <input type="text" data-type='email' class="input__input" validation>
+                    <span class="input__label">Email Address*</span>
+                </div>
+
+                <label class="checkbox form__checkbox">
+                    <input type="checkbox" class="checkbox__input">
+                    <div class="checkbox__icon"></div>
+                    <span class="checkbox__text">I would like to receive email updates from the University</span>
+                </label>
+
+                <button type="submit" class="button form__button js-submit">
+                    Make A Booking
+                </button>
+            </form>
+
+            <p class="modal__description">
+                The information provided by you will be held by the University of Essex in accordance with the University's Data protection Policy and may be used for the University's marketing purposes. On occasion we may contact you to advertise events with information relevant to student recruitment. If you do not wish to receive this information, please select the opt out function which can be found at the foot of your confirmation email. You will receive this email within 24 hours of registering.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*
+    box-sizing: border-box
+
+html, body
+    width: 100%
+    height: 100%
+
+body
+    font-family: $OS
+    font-weight: 400
+
+.wrapper
+    width: 100%
+    height: 100%
+
+    position: relative
+
+    background-color: #eaeaea
+
+.overlay
+    display: none
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+
+    background-color: #2f2f2f
+
+    z-index: 9000
+
+.visible
+    display: block !important
+
+.hidden
+    display: none !important
+
+.fixed
+    position: fixed
+
+.error-message
+    font-size: 12px
+    font-weight: 600
+
+    color: #db4433
+
+.close
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    top: 0
+    right: 0
+
+    width: 42px
+    height: 42px
+
+    background-color: rgba(0, 0, 0, 0.5)
+
+    cursor: pointer
+    user-select: none

@@ -1,0 +1,21 @@
+{
+    "name": "new-project",
+    "description": "",
+    "main": "",
+    "authors": [
+      "name surname"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "normalize-css": "normalize.css#^7.0.0",
+      "svg4everybody": "^2.1.8"
+    }
+  }
